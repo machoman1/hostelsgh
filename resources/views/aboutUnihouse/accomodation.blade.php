@@ -28,9 +28,11 @@
     <div style="display:none;" class="animate-bottom" id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a style="background-color: unset;" class="navbar-brand" href="{{ url('/') }}">
                     <!-- {{ config('app.name', 'Laravel') }} -->
-                    <img src="https://www.unipol.org.uk/css/images/logo_leeds.png">
+                    <!-- <img src="https://www.unipol.org.uk/css/images/logo_leeds.png"> -->
+                    <img src="images/logo1.jpg" height="100" width="200">
+
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -47,7 +49,7 @@
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
-                                <li class="nav-item">
+                                <li class="nav-item sb">
                                     <!-- <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a> -->
                                     <form class="example" action="/action_page.php" style="">
                                         <input type="text" style="font-family: 'Open Sans', sans-serif" placeholder="Search..." name="search2">
@@ -57,7 +59,7 @@
                             @endif
 
                             @if (Route::has('register'))
-                                <li class="nav-item">
+                                <li class="nav-item lb">
                                     <form action="">
                                     <a href="login" class="btn_top"><i class="fa fa-lock"></i> UniHostel Login</a>
                                     </form>
@@ -240,41 +242,25 @@
                 </div>
             </div>
             <div style="padding-top:20px;" class="card1">
+    <form  method="get" action="{{ url( '/accomodation_search' )}}">
                 <div class="row">
                     <div class="col-md-2"></div>
-                    <div class="col-md-4">
-            <form  method="get" action="{{ url( '/accomodation_search' )}}">
-                        <span style="opacity:0.8;font-size:16px">How many bedroomes do you want?</span><br>
-                    <input value="1" type="number" name="number_of_room" id="number_of_room" style="width:100%">
-                    <br><br>
-                    <span style="opacity:0.8;font-size:16px">Select Type of Property</span><br>
-                    <select name="property_type" id="property_type" style="width:100%">
-                        <option value="I do not mind">I don't mind</option>
-                        @foreach($data_pro_type as $type)
-                        <option value="{{$type->name}}">{{$type->name}}</option>
-                        @endforeach
-                    </select>
-                    </div>
-                    <div class="col-md-4">
-                        <span style="opacity:0.8;font-size:16px">Whole Property Required?</span><br>
-                    <select name="require_property" id="require_property" style="width:100%">
-                        <option value="Room in a shared property/large development">Room in a shared property/large development</option>
-                        <option value="Whole Property">Whole Property</option>
-                    </select><br><br>
-
-                    <span style="opacity:0.8;font-size:16px">When do you want to move in?</span><br>
-                    <select onchange="selectedValue()" name="date_available" id="move_in_time" style="width:100%">
-                        <option value="0">Available Now</option>
-                        <option value="1">Show All</option>
-                        <option value="2">Select Date</option>
-                    </select>
-                    <p id="demo"></p>
-
-                    <input name="move_in_time_date" id="move_in_time_date" type="date" style="width: 100%; display:none">
-
-                    </div>
+                        <div class="col-md-4">
+                            <span style="opacity:0.8;font-size:16px">How many bedroomes do you want?</span><br>
+                            <input value="1" type="number" name="number_of_room" id="number_of_room" style="width:100%">
+                            <br><br>
+                        </div>
+                        <div class="col-md-4">
+                            <span style="opacity:0.8;font-size:16px">Select Type of Property</span><br>
+                            <select name="property_type" id="property_type" style="width:100%">
+                                <option value="I do not mind">I don't mind</option>
+                                @foreach($data_pro_type as $type)
+                                <option value="{{$type->name}}">{{$type->name}}</option>
+                                @endforeach
+                            </select>
+                        </div>
                     <div class="col-md-2"></div>
-                </div><br><br>
+                </div>
 
                 <div class="row">
                     <div class="col-md-2"></div>
@@ -337,7 +323,7 @@
                         <option value="No Reference">No Reference</option>
                             <option value="Not Required">Not Required</option>
                             <option value="Required">Required</option>
-                        </select>
+                        </select><br><br>
                     </div>
                     <div class="col-md-2"></div>
                 </div>
@@ -345,7 +331,7 @@
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
-                        <input onclick="myFunction()" style="height:30px;width:30px" type="checkbox" name="include_aminities" id="include_aminities"><span style="padding-left:20px;opacity:0.8;font-size:16px">Advance Filter</span>
+                        <input onclick="myFunction_advance_filter()" style="height:30px;width:30px" type="checkbox" name="include_amini" id="include_aminities"><span style="padding-left:20px;opacity:0.8;font-size:16px">Advance Filter</span>
                     </div><br><br>
                     <div class="col-md-2"></div>
                 </div>
@@ -386,8 +372,8 @@
                     <div class="col-md-2">
                         <button  style="width:100%" class="btn_top"><i class="fa fa-search"></i> Search</button>
                     </div>
-        </form>
-                    <div class="col-md-3">
+     </form>
+                    <div id="clsbt" class="col-md-3">
                         <a style="width:100%;text-align:center" href="accomodation" class="btn_top"><i class="fa fa-search"></i> Clear My Search</a>
                     </div>
                     <div class="col-md-2"></div>
@@ -438,7 +424,7 @@ slider.oninput = function() {
     }
 </script>
 <script type="text/javascript">
-function myFunction() {
+function myFunction_advance_filter() {
   var checkBox = document.getElementById("include_aminities");
   var all_aminities = document.getElementById("all_aminities");
   if (checkBox.checked == true){
@@ -458,7 +444,7 @@ function myFunction() {
 <script type="text/javascript">
     function function2(){
         var x = document.getElementById("require_property").value;
-        if(x == 'Room in a shared property/large development'){
+        if(x == 'Room in a shared property'){
             document.getElementById("move_in_time_date").style.display = 'block';
         }else{
             document.getElementById("move_in_time_date").style.display = 'none';
@@ -598,6 +584,24 @@ function showPage() {
   display: none;
 }
 
+@media screen and (max-width: 600px) {
+  .sb {
+        display: none;
+    }
+   .lb{
+        text-align: center;
+   }
+   #require_property{
+        width: 50%;
+        text-decoration: center;
+   }
+   #number_of_room{
+    width: 100%;
+   }
+   #clsbt{
+        padding-top:10px;
+   }
+}
 
   
 </style>

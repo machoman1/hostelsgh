@@ -21,16 +21,17 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
+
 </head>
 <body >
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    <!-- {{ config('app.name', 'Laravel') }} -->
-                    <img src="https://www.unipol.org.uk/css/images/logo_leeds.png">
+                <a style="background-color: unset;" class="navbar-brand" href="{{ url('/') }}">
+                    <!-- <img src="https://www.unipol.org.uk/css/images/logo_leeds.png"> -->
+                    <img src="images/logo1.jpg" height="100" width="200">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <button id="bbb" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -145,9 +146,59 @@
             @include('sweetalert::alert')
 
         </main>
+        <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">Welcome to ghhostels.com!, We are a platform dedicated to providing students with affordable and convenient hostel bookings. Our mission is to make the process of finding and booking a hostel as easy as possible for you.Our team has years of experience in the travel and hospitality industry, and we know what it takes to create an enjoyable and comfortable hostel experience. That's why we carefully curate a selection of hostels that are not only budget-friendly but also offer great amenities and services.</p>
+          </div>
 
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="#">Accomodation Servive</a></li>
+              <li><a href="#">Housing Service</a></li>
+              <li><a href="#">Lanlord Codes</a></li>
+              <li><a href="#">Renting Serivice</a></li>
+              <li><a href="#">Manage Your Property</a></li>
+            </ul>
+          </div>
 
-        <div style="font-family: 'Open Sans', sans-serif;" class="footer-clean">
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="/accomodation">Book Room</a></li>
+              <li><a href="/news">News</a></li>
+              <li><a href="/complain">Make Complain</a></li>
+              <li><a href="/housing">Manage Your Property</a></li>
+              <li><a href="/about">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+         <a href="#">Sak-T Solutions</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul style="padding-top: 10px;" class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+
+        <!-- <div style="font-family: 'Open Sans', sans-serif;" class="footer-clean">
             <footer>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -182,7 +233,8 @@
                     </div>
                 </div>
             </footer>
-        </div> 
+            
+        </div>  -->
     </div>
     @include('sweetalert::alert')
 
@@ -204,12 +256,182 @@ function myFunction() {
   .lb {
     text-align: center;
 
-  }.footer-clean{
+  }.footer-clean,.site-footer{
     text-align: center;
   }.sb{
     display: none;
+  }img{
+    /* height: 30%;
+    width: 30%;
+   display: none; */
+  }#bbb{
+    float: right;
   }
  
+}
+.site-footer
+{
+  background-color:#5f9c3f;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:white;
+  /* opacity: 0.8; */
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:white;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:25px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
 }
 </style>
 
