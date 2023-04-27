@@ -261,6 +261,27 @@
                         </div>
                     <div class="col-md-2"></div>
                 </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                        <div class="col-md-4">
+                            <span style="opacity:0.8;font-size:16px">Whole Property Required?</span><br>
+                            <select name="require_property" id="require_property" style="width:100%">
+                                <option value="Room in a shared property">Room in a shared property</option>
+                                <option value="Whole Property">Whole Property</option>
+                            </select><br><br>
+                        </div>
+                        <div class="col-md-4">
+                            <span style="opacity:0.8;font-size:16px">When do you want to move in?</span><br>
+                            <select onchange="selectedValue()" name="date_available" id="move_in_time" style="width:100%">
+                                <option value="0">Available Now</option>
+                                <option value="1">Show All</option>
+                                <option value="2">Select Date</option>
+                            </select>
+                            <p id="demo"></p>
+                            <input name="move_in_time_date" id="move_in_time_date" type="date" style="width: 100%; display:none">
+                        </div>
+                    <div class="col-md-2"></div>
+                </div>
 
                 <div class="row">
                     <div class="col-md-2"></div>

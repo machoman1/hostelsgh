@@ -67,7 +67,7 @@ class AllSearchController extends Controller
         $prop_search_count = Property::where('property_type','LIKE', '%'.$property_type.'%')->union($room_number)->count();
 
         // property end
-        if($request->require_property == 'Room in a shared property/large development' && $room_search){
+        if($request->require_property == 'Room in a shared property' && $room_search){
                 //Alert::toast('room',' warning');
                 return view('aboutUnihouse.accomodation',compact('data','data_pro_type','date_available','amount_wanted','city','room_search','data_city','room_number','room_search_count'));
     
