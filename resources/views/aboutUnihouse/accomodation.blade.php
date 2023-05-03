@@ -31,7 +31,7 @@
                 <a style="background-color: unset;" class="navbar-brand" href="{{ url('/') }}">
                     <!-- {{ config('app.name', 'Laravel') }} -->
                     <!-- <img src="https://www.unipol.org.uk/css/images/logo_leeds.png"> -->
-                    <img src="images/logo1.jpg" height="100" width="200">
+                    <img src="images/gh hostles.png" height="100" width="200">
 
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
