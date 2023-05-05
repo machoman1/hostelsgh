@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>UniHostel</title>
+    <title>Hostelgh</title>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/min.css') }}" rel="stylesheet">
@@ -61,7 +61,7 @@
                             @if (Route::has('register'))
                                 <li class="nav-item lb">
                                     <form action="">
-                                    <a href="login" class="btn_top"><i class="fa fa-lock"></i> UniHostel Login</a>
+                                    <a href="login" class="btn_top"><i class="fa fa-lock"></i> Hostelgh Login</a>
                                     </form>
                                 </li>
                             @endif
@@ -92,23 +92,23 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div style="font-family: 'Open Sans', sans-serif;" class="container">
             <div class="topnav" id="myTopnav">
-                 <a class="active" href="accomodation">Search for Housing</a>
-                <a class="active" href="landloard">Landlords</a>
-                <a class="active" href="news">News</a>
-                <a class="active" href="complain">Make a Complain</a>
-                <a class="active" href="noticeboard">Notice Board</a>
-                <a class="active" href="upcoming_event">Upcoming Events</a>
-                <a class="active" href="repair">Request a Repair</a>
-                <a class="active" href="general_enquiries">General Enquries</a>
-                <a class="active" href="homestay">Homestay</a>
-                <button id="dropdownDefault" data-dropdown-toggle="dropdown" style="font-size: 16px;border: none;outline: none;color: #5f9c3f;padding: 14px 16px;background-color: inherit;margin: 0;font-weight:bolder;font-family: 'Open Sans', sans-serif;" type="button">About UniHostel <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                 <a class="active" href="/accomodation">Search for Housing</a>
+                <a class="active" href="/landloard">Landlords</a>
+                <a class="active" href="/news">News</a>
+                <a class="active" href="/complain">Make a Complain</a>
+                <a class="active" href="/noticeboard">Notice Board</a>
+                <a class="active" href="/upcoming_event">Upcoming Events</a>
+                <a class="active" href="/repair">Request a Repair</a>
+                <a class="active" href="/general_enquiries">General Enquries</a>
+                <a class="active" href="/homestay">Homestay</a>
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" style="font-size: 16px;border: none;outline: none;color: #5f9c3f;padding: 14px 16px;background-color: inherit;margin: 0;font-weight:bolder;font-family: 'Open Sans', sans-serif;" type="button">About Hostelgh <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
                 <div id="dropdown" class="hidden z-10 w-100 bg-white divide-y divide-gray-100 shadow dark:bg-gray-700">
                     <div class="row">
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="/about" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">UniHostel Values <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
-                                    <p style="padding-top:10px" >About UniHostel and our core values</p>
+                                <a href="/about" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Hostelgh Values <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                    <p style="padding-top:10px" >About Hostelgh and our core values</p>
                                 </li>
                             </ul>
                         </div>
@@ -116,7 +116,7 @@
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="housing" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">UniHostel Housing <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                <a href="/housing" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Hostelgh Housing <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
                                     <p style="padding-top:10px" >Rent directly from the charity</p>
                                 </li>
                             </ul>
@@ -125,7 +125,7 @@
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rent online from UniHostel <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rent online from Hostelgh <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
                                     <p style="padding-top:10px" >You can rent all house from anywhere</p>
                                 </li>
                             </ul>
@@ -134,7 +134,7 @@
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="accomodation" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Search for Housing <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                <a href="/accomodation" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Search for Housing <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
                                     <p style="padding-top:10px" >Search our database for what you need</p>
                                 </li>
                             </ul>
@@ -143,7 +143,7 @@
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="manage_property" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Let us manage your Property <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                <a href="/manage_property" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Let us manage your Property <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
                                     <p style="padding-top:10px" >property management service</p>
                                 </li>
                             </ul>
@@ -152,15 +152,15 @@
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="gorvenance" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">UniHostel Gorvernance <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                <a href="/gorvenance" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Hostelgh Gorvernance <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
                                     <p style="padding-top:10px" >How the charity works</p>
                                 </li>
                             </ul>
                         </div><br><br><br>
                     </div>
                     </div> 
-                    <a class="active" href="#about">Sponsors</a>
-                    <a class="active" href="advice">Advice</a>
+                    <a class="active" href="#">Sponsors</a>
+                    <a class="active" href="#">Advice</a>
                 <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
                 </div>
 

@@ -13,7 +13,7 @@
                 <div style="font-family: 'Open Sans', sans-serif" class="col-md-8">
                     <p style="font-size:28px;text-align:center;color:white">Looking For Student Housing?</p>
                     <p style="font-size:40px;text-align:center;color:white">{{$data_room}} +</p>
-                    <p style="font-size:20px;text-align:center;color:white">UniHostel Code Properties To Let</p>
+                    <p style="font-size:20px;text-align:center;color:white">Hostelgh Code Properties To Let</p>
                     <form  method="get" action="{{ url( '/welcome_search' )}}">
                         @csrf 
                         <select name="query" id="city_drop" style="width:100%;background-color:transparent;outline:none;border:none;color:white" required>
@@ -42,7 +42,7 @@
     <div class="col-md-6">
         <label style="font-size:70px;line-height:1;text-align:center;padding-top:30px;font-weight:bold">Student Housing Made Easy....</label><br><br>
         <p style="font-size:18px">From contract signing, to helping students search for accommodation, our not-for-profit housing charity provides students with housing support every step of the way</p><br><br>
-        <div class="ml"><a href="about"><p style="text-align:center;font-weight:bold;color:#008080;font-size:20px">Why Choose UniHostel <i class="fa fa-caret-right"></i></p></a><br><br><br><br></div>
+        <div class="ml"><a href="about"><p style="text-align:center;font-weight:bold;color:#008080;font-size:20px">Why Choose Hostelgh <i class="fa fa-caret-right"></i></p></a><br><br><br><br></div>
     </div>
     <div class="col-md-3"></div>
     <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%">
@@ -58,7 +58,7 @@
                     <div class="ml"><a style="width:80%;height:80px" href="noticeboard" class="btn_top"><span style="float:left;padding-top:15px">Start Posting Now</span><span style="float:right;padding-top:15px"><i class="fa fa-caret-right"></i></span></a></div>
                 </div>
                 <div class="col-md-6">
-                    <div style="padding-top:60px" class="col-md-4"><span style="font-size:25px;color:black;font-weight:bold">Rent Directory From UniHostel</span></div>
+                    <div style="padding-top:60px" class="col-md-4"><span style="font-size:25px;color:black;font-weight:bold">Rent Directory From Hostelgh</span></div>
                     <div style="padding-top:20px" class="col-md-5"><span style="font-size:15px;">We offer the best deal we can to our tenants with no fees, hidden charges or guarantors.</span></div><br>
                     <div class="ml"><a style="width:80%;height:80px" href="accomodation" class="btn_top"><span style="float:left;padding-top:15px">Find Your Home Today</span><span style="float:right;padding-top:15px"><i class="fa fa-caret-right"></i></span></a></div>
                 </div>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Unihostel</title>
+    <title>Hostelgh</title>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/min.css') }}" rel="stylesheet">
@@ -28,7 +28,6 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a style="background-color: unset;" class="navbar-brand" href="{{ url('/') }}">
-                    <!-- <img src="https://www.unipol.org.uk/css/images/logo_leeds.png"> -->
                     <img src="images/gh hostles.png" height="100" width="200">
                 </a>
                 <button id="bbb" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -54,7 +53,7 @@
                                 </li>
 
                                 <li class="nav-item lb">
-                                    <a href="login" class="btn_top"><i class="fa fa-lock"></i> UniHostel Login</a>
+                                    <a href="login" class="btn_top"><i class="fa fa-lock"></i> Hostelgh Login</a>
                                 </li>
                     </ul>
                 </div>
@@ -65,7 +64,7 @@
             <div style="font-family: 'Open Sans', sans-serif;" class="container">
             <div class="topnav" id="myTopnav">
 
-                 <a class="active" href="/accomodation">Search for UniHostel</a>
+                 <a class="active" href="/accomodation">Search for Hostel</a>
                 <a class="active" href="/landloard">Landlords</a>
                 <a class="active" href="/news">News</a>
                 <a class="active" href="/complain">Make a Complain</a>
@@ -75,14 +74,14 @@
                 <a class="active" href="/general_enquiries">General Enquries</a>
                 <a class="active" href="/homestay">Homestay</a>
 
-                <button id="dropdownDefault" data-dropdown-toggle="dropdown" style="font-size: 16px;border: none;outline: none;color: #5f9c3f;padding: 14px 16px;background-color: inherit;font-family: inherit;margin: 0;font-weight:bolder" type="button">About UniHostel <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+                <button id="dropdownDefault" data-dropdown-toggle="dropdown" style="font-size: 16px;border: none;outline: none;color: #5f9c3f;padding: 14px 16px;background-color: inherit;font-family: inherit;margin: 0;font-weight:bolder" type="button">About Hostelgh <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
                 <div id="dropdown" class="hidden z-10 w-100 bg-white border-gray-900 rounded divide-y divide-gray-100 shadow dark:bg-gray-700">
                     <div class="row">
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="/about" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white active">UniHostel Values <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
-                                    <p style="padding-top: 10px;">About UniHostel and our core values</p>
+                                <a href="/about" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white active">Hostelgh Values <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                    <p style="padding-top: 10px;">About Hostelgh and our core values</p>
                                 </li>
                             </ul>
                         </div>
@@ -90,7 +89,7 @@
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="housing" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">UniHostel Housing <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                <a href="/housing" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Hostelgh Housing <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
                                     <p style="padding-right:20px;padding-top:10px" >Rent directly from the charity</p>
                                 </li>
                             </ul>
@@ -99,7 +98,7 @@
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rent online from UniHostel <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                <a href="#" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rent online from Hostelgh <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
                                     <p style="padding-top: 10px;">Rent all house from anywhere</p>
                                 </li>
                             </ul>
@@ -108,7 +107,7 @@
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="accomodation" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Search for Housing <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                <a href="/accomodation" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Search for Housing <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
                                     <p style="padding-top: 10px;">Search our database for what you need</p>
                                 </li>
                             </ul>
@@ -117,7 +116,7 @@
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="manage_property" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Let us manage your Property <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                <a href="/manage_property" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Let us manage your Property <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
                                     <p style="padding-top:10px" >property management service</p>
                                 </li>
                             </ul>
@@ -126,15 +125,15 @@
                         <div class="col-md-4">
                             <ul class="py-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
                                 <li>
-                                <a href="gorvenance" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">UniHostel Gorvernance <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
+                                <a href="/gorvenance" class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Hostelgh Gorvernance <span style="padding-left:10px;font-size:20px"><i class="fa fa-angle-right" aria-hidden="true"></i></a></span>
                                     <p style="padding-top: 10px;">How the charity works</p>
                                 </li>
                             </ul>
                         </div><br><br><br>
                     </div>
                     </div> 
-                    <a class="active" href="#about">Sponsors</a>
-                    <a class="active" href="advice">Advice</a>
+                    <a class="active" href="#">Sponsors</a>
+                    <a class="active" href="#">Advice</a>
                 <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
                 </div>
 
@@ -151,7 +150,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <h6>About</h6>
-            <p class="text-justify">Welcome to ghhostels.com!, We are a platform dedicated to providing students with affordable and convenient hostel bookings. Our mission is to make the process of finding and booking a hostel as easy as possible for you.Our team has years of experience in the travel and hospitality industry, and we know what it takes to create an enjoyable and comfortable hostel experience. That's why we carefully curate a selection of hostels that are not only budget-friendly but also offer great amenities and services.</p>
+            <p class="text-justify">Welcome to hostelgh.com!, We are a platform dedicated to providing students with affordable and convenient hostel bookings. Our mission is to make the process of finding and booking a hostel as easy as possible for you.Our team has years of experience in the travel and hospitality industry, and we know what it takes to create an enjoyable and comfortable hostel experience. That's why we carefully curate a selection of hostels that are not only budget-friendly but also offer great amenities and services.</p>
           </div>
 
           <div class="col-xs-6 col-md-3">
@@ -182,7 +181,7 @@
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
-         <a href="#">Sak-T Solutions</a>.
+         <a style="all:unset" href="#"><span style="font-style: italic;">Sak-T Solutions</span></a>.
             </p>
           </div>
 
@@ -214,9 +213,9 @@
                         <div class="col-sm-4 col-md-3 item">
                             <h3 style="font-family:'Montserrat', sans-serif;">About</h3>
                             <ul>
-                                <li><a href="#">UniHostel</a></li>
+                                <li><a href="#">Hostelgh</a></li>
                                 <li><a href="#">Lanlord Codes</a></li>
-                                <li><a href="#">Why Choose UniHostel</a></li>
+                                <li><a href="#">Why Choose Hostelgh</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-4 col-md-3 item">
@@ -228,7 +227,7 @@
                             </ul>
                         </div>
                         <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-youtube"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-                            <p class="copyright">UniHostels © 2022</p>
+                            <p class="copyright">Hostelghs © 2022</p>
                         </div>
                     </div>
                 </div>
