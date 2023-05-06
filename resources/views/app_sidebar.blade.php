@@ -29,7 +29,7 @@
             <div class="container">
                 <a style="background-color: unset;" class="navbar-brand" href="{{ url('/') }}">
                     <!-- <img src="images/gh hostles.png" height="100" width="200"> -->
-                    <img src="https://scontent.facc5-2.fna.fbcdn.net/v/t39.30808-6/344405908_1432839414213772_3098944022171940630_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=UHGLE1UcLI8AX-WDB9o&_nc_ht=scontent.facc5-2.fna&oh=00_AfCk6oXjmtyB1WaxDJ4o-YmWpg7RrdMFti997Yytavl-KA&oe=645AD50E" height="100" width="200">
+                    <img src="https://scontent.facc5-2.fna.fbcdn.net/v/t39.30808-6/345592120_2307295166106913_3703599455956872139_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=smbSnTWdyyQAX_A53sI&_nc_ht=scontent.facc5-2.fna&oh=00_AfCCGZ447TMaDgBGbQUVO_27qsNxAxDBybIzZvaZbcf6Kg&oe=645AFC68" height="100" width="200">
 
                 </a>
                 <button id="bbb" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
