@@ -30,11 +30,8 @@
             <div class="container">
                 <a style="background-color: unset;" class="navbar-brand" href="{{ url('/') }}">
                     <!-- {{ config('app.name', 'Laravel') }} -->
-                    <!-- <img src="https://www.unipol.org.uk/css/images/logo_leeds.png"> -->
-                    <!-- <img src="images/gh hostles.png" height="100" width="200"> -->
-                    <img src="https://scontent.facc5-2.fna.fbcdn.net/v/t39.30808-6/345592120_2307295166106913_3703599455956872139_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=smbSnTWdyyQAX_A53sI&_nc_ht=scontent.facc5-2.fna&oh=00_AfCCGZ447TMaDgBGbQUVO_27qsNxAxDBybIzZvaZbcf6Kg&oe=645AFC68" height="100" width="200">
-
-
+                    <!-- <img src="images/H-GH.png" height="100" width="200"> -->
+                    <img src="https://scontent.flfw5-1.fna.fbcdn.net/v/t39.30808-6/347799529_765323708629954_1991020526151240239_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=dS7dLp4H5AAAX9tXHed&_nc_oc=AQlLt2kpqXysvLDuKhlDE1gfTe_I6dxsMhxjGoTddaJGfMAbCbdSo7uJ57SlXVCd8Co&_nc_ht=scontent.flfw5-1.fna&oh=00_AfAht4Jvl4nxBbBrRp_cvJgVAQ5eTeux8HUT5yLjTWpyPg&oe=646C110E" height="100" width="200">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
