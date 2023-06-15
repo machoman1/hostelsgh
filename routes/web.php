@@ -265,4 +265,3 @@ Route::get('whole_property_search/{id}', [App\Http\Controllers\AllSearchControll
 Route::get('whole_room_search/{id}', [App\Http\Controllers\AllSearchController::class, 'whole_room_search']);
 Route::post('whole_property_search/', [App\Http\Controllers\BookingsController::class, 'add_bookings']);
 Route::post('whole_room_search/', [App\Http\Controllers\BookingsController::class, 'add_bookings_room']);
-

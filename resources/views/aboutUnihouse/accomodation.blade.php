@@ -31,7 +31,7 @@
                 <a style="background-color: unset;" class="navbar-brand" href="{{ url('/') }}">
                     <!-- {{ config('app.name', 'Laravel') }} -->
                     <!-- <img src="images/H-GH.png" height="100" width="200"> -->
-                    <img src="https://scontent.flfw5-1.fna.fbcdn.net/v/t39.30808-6/347799529_765323708629954_1991020526151240239_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=dS7dLp4H5AAAX9tXHed&_nc_oc=AQlLt2kpqXysvLDuKhlDE1gfTe_I6dxsMhxjGoTddaJGfMAbCbdSo7uJ57SlXVCd8Co&_nc_ht=scontent.flfw5-1.fna&oh=00_AfAht4Jvl4nxBbBrRp_cvJgVAQ5eTeux8HUT5yLjTWpyPg&oe=646C110E" height="100" width="200">
+                    <img src="https://scontent.facc1-1.fna.fbcdn.net/v/t39.30808-6/347799529_765323708629954_1991020526151240239_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEOlfFiQZaTi5jThf2GkdnOgghXebZHvJSCCFd5tke8lDMb02cRDThuF2bEHajWDCeeVWfj8ZVUkaeAxZEOv-jO&_nc_ohc=cShSkvy4OZcAX-YDh6r&_nc_oc=AQloMV303MB9z3zMSGFusb9Cf98iUekARGmH-y0GKm75FwCzjBdxHQhQyNDC1cFyePA&_nc_zt=23&_nc_ht=scontent.facc1-1.fna&oh=00_AfBLcCkirfLV05S3m4wyUhhTC-jtAXRbSTYYlCu7uZFPoQ&oe=648FA98E" height="100" width="200">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

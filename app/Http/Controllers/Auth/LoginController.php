@@ -10,6 +10,8 @@ use Illuminate\Support\Facades\Auth;
 use RealRashid\SweetAlert\Facades\Alert;
 use Carbon\Carbon;
 use App\Models\User;
+use App\Notifications\WelcomeNotification;
+
 class LoginController extends Controller
 {
     /*
@@ -58,20 +60,25 @@ class LoginController extends Controller
 
        // if(Auth::attempt(['username'=>$username, 'password'=>$password]))
        if(auth()->attempt(array($fieldType => $input['email'], 'password' => $input['password']))){    
+            $user = User::find(Auth::user()->id);
+            
             Auth::user()->last_login = $now;
             Auth::user()->device_ip =$request->getClientIp();
             Auth::user()->save();
 
             if(Auth::user()->role_as =='0'){
+                $user->notify(new WelcomeNotification());
                 Alert::toast('Login Successfully',' success');
                 return redirect('/admin');
             }
 
             if(Auth::user()->role_as =='2'){
+                $user->notify(new WelcomeNotification());
                 Alert::toast('Login Successfully',' success');
                 return redirect('/land_lord');
             }
             if(Auth::user()->role_as =='1'){
+                $user->notify(new WelcomeNotification());
                 Alert::toast('Login Successfully',' success');
                 return redirect('/students');
             }
