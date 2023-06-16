@@ -6,23 +6,23 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-<div style="font-family: 'Open Sans', sans-serif;" class="container">
+<div style="font-family: 'Open Sans', sans-serif;padding-top:10px" class="container">
     <div class="row">
         <div class="col-md-1"></div>
         <div style="background-color: #ffffff;" class="col-md-6">
             <h4 class="top">How to Complain</h4><br>
             <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%"><br>
-            <span>If you live in a Unihouse Code accredited property, and you are having problems with your property and or 
+            <span>If you live in a Hostelgh Code accredited property, and you are having problems with your property and or 
                 landlord we can help. Before reading the information below please check the status of your landlord at the link below.</span><br><br>
-            <a href="" style="text-align: center;" class="btn_top">Check if your landloard is a Unihouse code accredited</a><br><br>
-            <span>If your landlord is <span style="font-weight: bold;">NOT</span> a member of the Unipol Code we may still be able to give you advice on what to do next. 
+            <a href="" style="text-align: center;" class="btn_top">Check if your landloard is a Hostelgh code accredited</a><br><br>
+            <span>If your landlord is <span style="font-weight: bold;">NOT</span> a member of the Hostelgh Housing Code we may still be able to give you advice on what to do next. 
                 You can use the link below for useful support contacts or email us for advice (if we can't help directly we can often 
                 put you in touch with someone who can.</span><br><br>
             <span>If you are a Member of the Community and would like to find out more about how to make a complaint please use the link below.</span><br><br>
             <a href="" style="text-align: center;" class="btn_top">Complain as a Member of the Community</a><br><br>
             <span style="font-weight: bold;font-size:20px">Code Complaint Process for Students Explained</span><br><br>
             <span>If you haven’t contacted your landlord about the issue, then do that straight away. Follow the steps below.</span><br><br>
-            <span><span style="font-weight:bold;">1. Write to your landlord explaining the issue and mentioning the Unipol Code</span>.When writing the email:</span><br><br>
+            <span><span style="font-weight:bold;">1. Write to your landlord explaining the issue and mentioning the Hostelgh Housing Code</span>.When writing the email:</span><br><br>
             <img src="https://www.unipol.org.uk/getmedia/8630cbf1-418d-4740-b92b-2c6acf507d99/ComplaintAdvice.png.aspx"><br>
             <span style="font-weight: bold;">The Code has priority timescales for different types of repair:</span><br><br>
             <ul style="padding-left: 40px;list-style-type: circle;font-size:16px">
@@ -36,7 +36,7 @@
                         finishes to be made good within reasonable timescales if damaged or disturbed during repairs</li>
                 </ul><br><br>
             <span><span style="font-weight:bold;">2. Not fixed within the above timeframe?</span>Write to your landlord reminding them about the issue and state that you will make a Code complaint if it is not resolved.</span><br><br>
-            <span><span style="font-weight:bold;">3. If you’re not happy with the response, or you don’t receive one</span>let Unipol know. Don’t forget to provide supporting evidence (emails / photographs).</span><br><br>
+            <span><span style="font-weight:bold;">3. If you’re not happy with the response, or you don’t receive one</span>let Hostelgh know. Don’t forget to provide supporting evidence (emails / photographs).</span><br><br>
             <a data-toggle="modal" data-target=".complain-example-modal-lg" href="" style="text-align: center;" class="btn_top">Online Complaint Form</a><br><br>
 
                
@@ -67,7 +67,7 @@
          @csrf
                     <div class="row">
                     <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%"><br>
-                    <span>Please complete the form below with details of how you believe your landlord/managing agent has not complied with the Unihouse Code, completing <span style="font-weight:bold">all</span> sections as fully as you can.</span><br>
+                    <span>Please complete the form below with details of how you believe your landlord/managing agent has not complied with the Hostelgh Code, completing <span style="font-weight:bold">all</span> sections as fully as you can.</span><br>
                     <span>When your complaint is received Unipol will check if it fulfils the above criteria and may request more information from you if it does not. This may delay the process, so please try to provide all above information upfront.</span><br>
                     <span>Once a complaint has been received the landlord will be written to, informing them of the complaint and giving them <span style="font-weight:bold">7 working</span> days in which to respond. If the complaint raises concerns about property standards, Unipol may ask to inspect the property and this will take place within 10 working days of receiving your complaint.</span><br>
 
@@ -87,7 +87,7 @@
                     <select  name="tenancy_status" id="tenancy_status" required>
                         <option value="Current Tenant">Current Tenant</option>
                         <option value="Former Tenant">Former Tenant</option>
-                        <option value="Tenant Living in Unihouse Managed Property">Tenant Living in Unihouse Managed Property</option>
+                        <option value="Tenant Living in Hostelgh Managed Property">Tenant Living in Hostelgh Managed Property</option>
                         <option value="Member of The Community">Member of The Community</option>
                         <option value="Tenant or Community Representative">Tenant or Community Representative</option>
                     </select>

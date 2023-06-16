@@ -21,16 +21,17 @@
     <div class="row">
         <div class="col-md-6">
         <span style="font-size:20px;color:#008080">Your First Name</span>
-        <input name="first_name" id="first_name" class="form__input">
+        <input name="first_name" id="first_name" class="form-control"><br>
 
         <span style="font-size:20px;color:#008080">Your Email Address</span>
-        <input name="email" id="email" class="form__input">
+        <input name="email" id="email" class="form-control">
         </div>
+
         <div class="col-md-6">
         <span style="font-size:20px;color:#008080">Your Last Name</span>
-        <input name="last_name" id="last_name" class="form__input">
+        <input name="last_name" id="last_name" class="form-control"><br>
 
-        <span style="font-size:20px;color:#008080">Your University</span><br><br>
+        <span style="font-size:20px;color:#008080">Your University</span><br>
         <select class="select" style="width:100%;border:none;unset:all;font-size:20px" name="house" id="house">
             <option value="2020-2021">2020-2021</option>
             <option value="2021-2022">2021-2022</option>
@@ -41,7 +42,7 @@
     <div class="row">
         <div class="col-md-5"></div>
         <div class="col-md-5"></div>
-        <div class="col-md-2"><a onclick="openCity(event, 'landlord Details')" style="float:right;width:100%;text-align:center" class="btn_top">Next Step</a></div>
+        <div class="col-md-2" style="padding-top: 10px;"><a onclick="openCity(event, 'landlord Details')" style="float:right;width:100%;text-align:center" class="btn_top">Next Step</a></div>
     </div>
 </div>
 

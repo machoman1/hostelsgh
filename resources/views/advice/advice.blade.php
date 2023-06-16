@@ -38,7 +38,7 @@
                     <div class="col-md-4 card">
                         <h1 style="font-size:24px">ABOUT YOUR TENANCY AND MOVING IN</h1>
                          <p style="padding-top:10px"><br>
-                         Bradford | Leeds | Nottingham  
+                         UEW | UCC | UG  
                         Find out about the Tenancy Agreement, other useful documents relating to it and what to bring with you to University
                         </p>
                         <p style="text-align:center; padding-top:100px"><a data-toggle="modal" data-target=".bd1-example-modal-lg" href="#" class="btn_top">Read Article</a></p>
@@ -46,7 +46,7 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">LIVING IN THE PROPERTY</h1><br>
                         <p>
-                        Bradford | Leeds | Nottingham
+                        UEW | UCC | UG
                          you move in be clear how things work, how to report repairs, troubleshooting guides for common problems and what to do in an emergency
                         </p>
                         <p style="text-align:center;padding-top:100px"><a data-toggle="modal" data-target=".bd2-example-modal-lg" href="#" class="btn_top">Read Article</a></p>
@@ -54,7 +54,7 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">PROVIDING SUPPORT</h1><br>
                         <p>
-                        Bradford | Leeds | Nottingham
+                        UEW | UCC | UG
                         Find out how best to approach providing support to your increasingly independent daughter or son when they encounter specific difficulties along the way
                         </p>
                         <p style="text-align:center;padding-top:100px"><a href="#" class="btn_top">Read Article</a></p><br><br>
@@ -63,8 +63,8 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">TENANCY SUPPORT</h1><br>
                         <p>
-                        Leeds | Nottingham
-                        It’s not uncommon to experience friction or difficulties living in shared student accommodation. Unipol has a Tenancy Support Officer who can offer support
+                        UCC | UG
+                        It’s not uncommon to experience friction or difficulties living in shared student accommodation. Hostelgh has a Tenancy Support Officer who can offer support
                         </p><br>
                         <p style="text-align:center"><a data-toggle="modal" data-target=".tenancy_support-example-modal-lg" href="#" class="btn_top">Read Article</a></p><br><br>
                     </div>
@@ -72,7 +72,7 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">MANAGING FINANCES</h1><br>
                         <p>
-                        Leeds | Nottingham
+                        UCC | UG
                         Find useful information about the rent, deposits, energy costs and household bills. 
                         </p>
                         <p style="text-align:center;padding-top:100px"><a data-toggle="modal" data-target=".managing_finance-example-modal-lg" href="#" class="btn_top">Read Article</a></p><br><br>
@@ -81,7 +81,7 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">LANDLORD CLINIC</h1><br>
                         <p>
-                        Unipol runs a Landlord Clinic for Landlords in Leeds, Bradford and Nottingham. The purpose of the clinic is to support Landlords in providing a positive and professional renting experience to stude.. 
+                        Hostelgh runs a Landlord Clinic for Landlords in UCC, UEW and UG. The purpose of the clinic is to support Landlords in providing a positive and professional renting experience to stude.. 
                         </p>
                         <p style="text-align:center;padding-top:60px"><a data-toggle="modal" data-target=".landloardclinic-example-modal-lg" href="#" class="btn_top">Read Article</a></p><br><br>
                     </div>
@@ -89,7 +89,7 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">RATE YOUR LANDLORD</h1><br>
                         <p>
-                        Leeds
+                        UCC
                         Rate Your Landlord gives students an opportunity to review their renting experience that will help future students in the house hunting process.   
                         </p><br><br><br><br><br>
                         <p style="text-align:center"><a data-toggle="modal" data-target=".rate_landloard-example-modal-lg" href="#" class="btn_top">Read Article</a></p><br><br>
@@ -133,7 +133,7 @@
         </div>
         <div class="modal-body">
             <span>
-                If you wish to be added to our mailing list and be kept up to date with what Unipol are doing, please complete the form below.
+                If you wish to be added to our mailing list and be kept up to date with what Hostelgh are doing, please complete the form below.
             </span><br><br><br>
 
             <div class="row">
@@ -243,11 +243,11 @@
                         <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%"><br>
                         <div class="row">
                             <div class="col-md-8">
-                                <span>The Assured Shorthold Tenancy Agreement commits Unipol to providing the accommodation for the duration of the contract at a fixed and agreed rent. It also commits a tenant to pay rent for that period.</span>
+                                <span>The Assured Shorthold Tenancy Agreement commits Hostelgh to providing the accommodation for the duration of the contract at a fixed and agreed rent. It also commits a tenant to pay rent for that period.</span>
                                 <br><br>
                                 <span>Contract lengths vary: they are normally 43 weeks for first-year students (starting in mid-September) but most of the houses taken by returning students are let on 52 week contracts - in some instances concessionary rents over the summer are offered.</span>
                                 <br><br>
-                                <span>To keep rents low it is important to keep occupancy high (the fewer empty rooms, the lower the rents need to be for those remaining). So unless exceptional circumstances can be demonstrated, Unipol expects all tenants to discharge their contractual obligations and the tenancy cannot be 'cancelled' or a notice period provided.</span>
+                                <span>To keep rents low it is important to keep occupancy high (the fewer empty rooms, the lower the rents need to be for those remaining). So unless exceptional circumstances can be demonstrated, Hostelgh expects all tenants to discharge their contractual obligations and the tenancy cannot be 'cancelled' or a notice period provided.</span>
                             </div>
                             <div class="col-md-4">
                                 <img src="https://www.unipolhousing.org.uk/media/3467/img_8883.jpg?anchor=center&mode=crop&width=800&heightratio=0.6666666666666666666666666667&format=jpg&quality=90&slimmage=true&rnd=132157348410000000" width="100%" height="100%">
@@ -345,23 +345,23 @@
                         <span style="padding-top:20px">Emergencies Contact Number<span style="font-weight:bold">+233 0542039395</span></span>
 
                         <span style="padding-top:10px;font-weight:bold;font-size:20px">Burglary</span> 
-                        <span>In the case of an emergency that requires the emergency services (burglary or vandalism), this must be reported to the police and a crime reference number supplied to Unipol.</span>
+                        <span>In the case of an emergency that requires the emergency services (burglary or vandalism), this must be reported to the police and a crime reference number supplied to Hostelgh.</span>
 
-                        <span>If forced entry was used, call Unipol so we can send someone to secure the property for you. This may be a temporary repair like boarding up a window or securing a door.</span>
+                        <span>If forced entry was used, call Hostelgh so we can send someone to secure the property for you. This may be a temporary repair like boarding up a window or securing a door.</span>
 
                         <span>Our tenancy support staff will be in touch with you on the next working day to see if you need further assistance.</span>
 
                         <span style="padding-top:10px;font-weight:bold;font-size:20px">Fire</span> 
-                        <span>In the case of serious fire, call 999 and then once you are safe, call Unipol to report what has happened.  </span>
+                        <span>In the case of serious fire, call 999 and then once you are safe, call Hostelgh to report what has happened.  </span>
 
                         <span style="padding-top:10px;font-weight:bold;font-size:20px">Flood</span> 
-                        <span>A serious flood is where the water will not stop. If you can, find the stop tap to turn of the supply and limit the damage to the property. Quite often stop taps are located in kitchen cupboards near the sink. Call Unipol to report it. </span>
+                        <span>A serious flood is where the water will not stop. If you can, find the stop tap to turn of the supply and limit the damage to the property. Quite often stop taps are located in kitchen cupboards near the sink. Call Hostelgh to report it. </span>
 
-                        <span>A leak from a bath, shower, sink or washing machine will normally stop after a while, once the contents have dispersed. This is not an emergency and you should take steps to dry the area out. Do not use this area again until it is fixed, so remember to report it to Unipol using the normal channels. The electrics may not work for a while until they have dried out, but the modern RCD system is in place to keep you safe and once dry, you should be able to turn the effected area on again </span>
+                        <span>A leak from a bath, shower, sink or washing machine will normally stop after a while, once the contents have dispersed. This is not an emergency and you should take steps to dry the area out. Do not use this area again until it is fixed, so remember to report it to Hostelgh using the normal channels. The electrics may not work for a while until they have dried out, but the modern RCD system is in place to keep you safe and once dry, you should be able to turn the effected area on again </span>
 
                         <span style="padding-top:10px;font-weight:bold;font-size:20px">Suspected gas leak or carbon monoxide</span> 
 
-                        <span>Call Unipol and take the following action;</span>
+                        <span>Call Hostelgh and take the following action;</span>
                         <ul style="padding-left: 40px;list-style-type: circle;font-size:16px">
                             <li>Open doors and windows</li>
                             <li>Turn the gas off at the meter/main stop tap</li>
@@ -369,7 +369,7 @@
                         </ul>
                         <span>The National Gas Emergency Service (National Grid) can be called to attend on 0800 111 999 and they will come and turn the gas off. They aim to attend within two hours. Their engineers will always 'make safe' when called to a suspected gas leak. It could be from the meter itself or an appliance in the property.</span>
 
-                        <span>The emergency service provided by them doesn’t cover repairs to appliances (cooker/boiler installation or pipework, so you still need to report the incident to Unipol so we can deploy a Gas Safe registered engineer.</span>
+                        <span>The emergency service provided by them doesn’t cover repairs to appliances (cooker/boiler installation or pipework, so you still need to report the incident to Hostelgh so we can deploy a Gas Safe registered engineer.</span>
                     </div>
         </div>
         <div class="modal-footer">
@@ -407,19 +407,19 @@
 
                         <span>In our larger buildings, a Resident's Assistant will be called to let you back in or our security service will deploy an officer to meet you at the property and let you back in. </span>
 
-                        <span>They will not be able to leave a copy of the key with you, so you are reliant upon housemates to provided access for you until Unipol's main offices are open and you can come and purchase a replacement.</span>
+                        <span>They will not be able to leave a copy of the key with you, so you are reliant upon housemates to provided access for you until Hostelgh's main offices are open and you can come and purchase a replacement.</span>
 
 
                         <span style="padding-top:10px;font-weight:bold;font-size:20px">If you lose your key or fob</span> 
-                        <span>If you lose a key, Unipol charge £30 for a replacement and £15 for an electronic fob. This is to cover the cost of replacing suited and security keys and for ordering more stock.</span>
+                        <span>If you lose a key, Hostelgh charge £30 for a replacement and £15 for an electronic fob. This is to cover the cost of replacing suited and security keys and for ordering more stock.</span>
 
                         <span style="padding-top:10px;font-weight:bold;font-size:20px">If we need to replace the actual lock the cost is considerably higher.</span> 
                         
-                        <span>If you temporarily misplace your key/fob, you may borrow one from Unipol for up to one week. If they are not returned to Unipol within this time, the full replacement charge will be made. No refunds can be given if the original key/fob is found after one week</span>
+                        <span>If you temporarily misplace your key/fob, you may borrow one from Hostelgh for up to one week. If they are not returned to Hostelgh within this time, the full replacement charge will be made. No refunds can be given if the original key/fob is found after one week</span>
 
                         <span>If your key is stolen, you must report it to the police and provide a Crime Reference number to staff </span>
 
-                        <span style="padding-top:10px;font-weight:bold;font-size:20px">Whatever the circumstances, you will need to come to the main Unipol offices or the building reception when it is open to get a replacement key.</span> 
+                        <span style="padding-top:10px;font-weight:bold;font-size:20px">Whatever the circumstances, you will need to come to the main Hostelgh offices or the building reception when it is open to get a replacement key.</span> 
 
                     </div>
         </div>
@@ -458,7 +458,7 @@
                                 <li>Resetting "trip" switches</li>
                                 <li>Other minor items such as re-lighting pilot lights on boilers</li>
                             </ul>
-                            <span>If you have outside drains with an exposed drain cover (which can get cluttered and blocked with dead leaves), it is your responsibility to make sure that the grill is cleaned regularly so that water does not overflow into the yard or garden. Unipol is responsible for other repairs.</span><br><br>
+                            <span>If you have outside drains with an exposed drain cover (which can get cluttered and blocked with dead leaves), it is your responsibility to make sure that the grill is cleaned regularly so that water does not overflow into the yard or garden. Hostelgh is responsible for other repairs.</span><br><br>
                             <span style="font-weight:bold">How to report a repair accurately</span><br><br>
                             <span>Whichever method you choose to contact us, always describe the damage or problem as fully as you can to help us make the repair as effectively as possible. If you report the problem in detail, the necessary repair can be done much more quickly</span><br><br>
                             <span>Please describe the location of a problem according to this scheme: Cellar/basement; ground floor; first floor; second floor; attic floor. Always describe the location as if you are standing in the street outside the front of the property. For example, first floor front left bedroom.</span><br><br>
@@ -512,7 +512,7 @@
 
                         <div class="col-md-6">
                             <span>It’s important that you consider home security and personal safety.</span><br><br>
-                            <span>Big cities like Leeds, Nottingham and Bradford give criminals greater opportunities, (especially student areas where there are multiple people living in shared houses) so everyone has to be extra vigilant and take extra care in protecting themselves and their property.</span><br><br>
+                            <span>Big cities like UCC, UG and UEW give criminals greater opportunities, (especially student areas where there are multiple people living in shared houses) so everyone has to be extra vigilant and take extra care in protecting themselves and their property.</span><br><br>
                             <span style="padding-top:10px;font-weight:bold;font-size:20px">What are we doing to keep you safe</span><br>
                             <ul style="padding-left: 40px;list-style-type: circle;font-size:16px">
                                 <li>External lighting has been fitted around many of our properties</li>
@@ -575,8 +575,8 @@
                             <span style="padding-top:10px;font-weight:bold;font-size:20px">Unihouse take tenants health and safety seriously</span> 
                             <ul style="padding-left: 40px;list-style-type: circle;font-size:16px">
                                 <li>all gas appliances are inspected and certificated annually, and tenants are given a copy of the most recent inspection record with their keys</li>
-                                <li>all electrical systems are inspected every five years (the recommended time interval) and tenants can ask to see a copy of the most recent inspection record at Unipol's office </li>
-                                <li>all of Unipol's properties have circuit breaker consumer units which trip out power if an unsafe appliance (normally a tenant's own) is being used.</li>
+                                <li>all electrical systems are inspected every five years (the recommended time interval) and tenants can ask to see a copy of the most recent inspection record at Hostelgh's office </li>
+                                <li>all of Hostelgh's properties have circuit breaker consumer units which trip out power if an unsafe appliance (normally a tenant's own) is being used.</li>
                             </ul>
                         </div>
                         <div class="col-md-6">
@@ -638,15 +638,15 @@
                             <span>It is important that if the rent is due and you are not able to pay that you contact the finance office to either arrange a short delay in the payment due date or agree a payment plan to help you complete your payments. If you have difficulty paying because of a cash flow problem and you need extra time, or you wish to discuss any special arrangements because of financial problems, please contact the Finance staff who will do their very best to help you.</span><br>
                             <span>UniHouse try to be flexible and helpful. It is not, however, UniHouse intention to become a bank and ‘lend’ money to students so we often advise students to seek assistance from the banks if you are having problems in meeting your obligations.</span><br>
                             <span style="padding-top:10px;font-weight:bold;font-size:20px">What happens if you miss payment dates?</span><br>
-                            <span>If you miss a payment and have not been in touch about it, Unipol will take the following steps:</span>
+                            <span>If you miss a payment and have not been in touch about it, Hostelgh will take the following steps:</span>
                             <ul style="padding-left: 40px;list-style-type: circle;font-size:16px">
                                 <li>Step One - the first letter will be sent out 7 days after the due date</li>
                                 <li>This will normally be accompanied by a text message and/or an e-mail. The letter will give 10 days to respond.</li>
                                 <li>Step Two - after 5 days a further text message and e-mail will be send and we will try to phone you drawing your attention to the debt and the lack of payment. You will be given a further three working days to respond. (If you are a joint tenant, your co tenants will be told of your debt and the possibility of them having to cover this amount if you do not).</li>
                                 <li>Step Three - after 3 days a second letter will be sent, including to your home address, together with a text message and e-mail making clear that payment needed to be immediate otherwise, after 7 days, the matter will be referred to solicitors without further notification. </li>
                                 <li>Step Four - after seven days a solicitor's letter will be issued giving a further 7 days for payment. The cost of referring the matter to the solicitor will be passed onto you.</li>
-                                <li>Step Five - after that seven days, unless a significant payment is made then Court Action will be initiated to collect the debt and repossession papers will be served, which would enable an eviction to take place. It is possible that a debt collection agency may be involved to recover the debt even after eviction. There are some charges that will be added to your account if Unipol goes through the above process.</li>
-                                <li>Ultimately Unipol will obtain a County Court Judgement against you. This can affect your credit rating and cause you difficulties in the future when you want to obtain credit cards, bank loans and mortgages. Unipol will pass on any costs involved in doing this. Although the above system may appear harsh it is transparent and necessary. If you have a debt with Unipol you will not be able to sign a further tenancy agreement with Unipol.</li>
+                                <li>Step Five - after that seven days, unless a significant payment is made then Court Action will be initiated to collect the debt and repossession papers will be served, which would enable an eviction to take place. It is possible that a debt collection agency may be involved to recover the debt even after eviction. There are some charges that will be added to your account if Hostelgh goes through the above process.</li>
+                                <li>Ultimately Hostelgh will obtain a County Court Judgement against you. This can affect your credit rating and cause you difficulties in the future when you want to obtain credit cards, bank loans and mortgages. Hostelgh will pass on any costs involved in doing this. Although the above system may appear harsh it is transparent and necessary. If you have a debt with Hostelgh you will not be able to sign a further tenancy agreement with Hostelgh.</li>
                             </ul>
                         </div>
                         <div class="col-md-6">
@@ -664,20 +664,20 @@
 
                         <div class="col-md-6">
                             <span style="padding-top:10px;font-weight:bold;font-size:20px">Unihouse's Rent Collection Procedure</span><br><br>
-                            <span>Your tenancy agreement is an important document. It will tell you for how long you are renting the property and are liable for the rent. It will also set out the rent payment dates. If you do not pay your rent on time and Unipol staff have to chase payment you will have to pay administration charges.</span><br>
-                            <span>The consequences of you not paying your rent could be that you will have a County Court judgement against you, but also it will impact on future rent levels that Unipol charges. Having said that Unipol will assist students who have genuine cash flow problems and if you contact us as soon as you know you cannot make a rent payment date we will be happy to discuss the matter with you.</span><br>
-                            <span>Below is the rent collection and arrears management procedure that Unihouse operates. Many landlords follow similar procedures, some are very much tougher than Unipol</span><br>
+                            <span>Your tenancy agreement is an important document. It will tell you for how long you are renting the property and are liable for the rent. It will also set out the rent payment dates. If you do not pay your rent on time and Hostelgh staff have to chase payment you will have to pay administration charges.</span><br>
+                            <span>The consequences of you not paying your rent could be that you will have a County Court judgement against you, but also it will impact on future rent levels that Hostelgh charges. Having said that Hostelgh will assist students who have genuine cash flow problems and if you contact us as soon as you know you cannot make a rent payment date we will be happy to discuss the matter with you.</span><br>
+                            <span>Below is the rent collection and arrears management procedure that Unihouse operates. Many landlords follow similar procedures, some are very much tougher than Hostelgh</span><br>
                             <span style="padding-top:10px;font-weight:bold;font-size:20px">Rent Payments</span><br><br>
-                            <span>Your tenancy agreement states the amount of rent and the dates that you must pay your rent. Always check your bank account to ensure a rent payment has been made correctly. Unipol is not able to talk to your bank about your payments and account.</span><br>
+                            <span>Your tenancy agreement states the amount of rent and the dates that you must pay your rent. Always check your bank account to ensure a rent payment has been made correctly. Hostelgh is not able to talk to your bank about your payments and account.</span><br>
                             <span style="padding-top:10px;font-weight:bold;font-size:20px">Rent payment for the whole year</span><br><br>
                             <span>Unihouse offer a discount on the total amount of rent payable if you pay all your rent in one payment by a specific date at the beginning of your tenancy. Further details are available at the time of signing your tenancy agreement.</span><br>
-                            <span style="padding-top:10px;font-weight:bold;font-size:20px">If you pay by debit card or credit card via Worldpay ( through Unipol’s website or email link payment plan)</span><br><br>
-                            <span>Please ensure that you have set up the payment correctly and that you have sufficient funds available on the dates the payments are due. If a payment needs cancelling for any reason then you need to instruct Worldpay not to make the payment before the payment date and inform Unipol of how you intend to pay your rent,</span><br>
-                            <span>If you are aware that your bank has not made a payment then you need to check with your bank and find out why. You then need to contact the finance team at Unipol to arrange payment by an alternative method. If a payment is made in error to Unipol, due to banking time delays, a refund will take 7 to 10 working days to process a refund.</span><br>
+                            <span style="padding-top:10px;font-weight:bold;font-size:20px">If you pay by debit card or credit card via Worldpay ( through Hostelgh’s website or email link payment plan)</span><br><br>
+                            <span>Please ensure that you have set up the payment correctly and that you have sufficient funds available on the dates the payments are due. If a payment needs cancelling for any reason then you need to instruct Worldpay not to make the payment before the payment date and inform Hostelgh of how you intend to pay your rent,</span><br>
+                            <span>If you are aware that your bank has not made a payment then you need to check with your bank and find out why. You then need to contact the finance team at Hostelgh to arrange payment by an alternative method. If a payment is made in error to Hostelgh, due to banking time delays, a refund will take 7 to 10 working days to process a refund.</span><br>
                             <span>Please note a Worldpay agreement is linked to your debit/credit card and not your bank account. If you need to replace your card you will have to enter your new details. Make sure you keep a record of your payment plan, username and password for future access. This will have been sent to you by Worldpay in an email.</span><br>
                             <span style="padding-top:10px;font-weight:bold;font-size:20px">If you pay by Direct Debit</span><br><br>
                             <span>Please check with your bank that they have set up your Direct Debit correctly and that you have the money in your bank account to make the payments on the due dates.</span><br>
-                            <span>Unihouse have pre-printed forms that you can complete and return to us. If there is not enough money in your account on the payment day, then your bank may decide not to forward the payment to Unipol. If this happens you will have to ask your bank to process the payment again or pay the amount due by an alternative method to Unipol. If a Direct Debit needs cancelling for any reason then you need to contact Unipol and instruct us to cancel it before the payment date. This needs to be done 10 days before the due date because of banking procedures.</span><br>
+                            <span>Unihouse have pre-printed forms that you can complete and return to us. If there is not enough money in your account on the payment day, then your bank may decide not to forward the payment to Hostelgh. If this happens you will have to ask your bank to process the payment again or pay the amount due by an alternative method to Hostelgh. If a Direct Debit needs cancelling for any reason then you need to contact Hostelgh and instruct us to cancel it before the payment date. This needs to be done 10 days before the due date because of banking procedures.</span><br>
                         </div>
                         <div class="col-md-6">
                           <img src="https://www.unipolhousing.org.uk/media/3470/img_7293.jpg?anchor=center&mode=crop&rnd=132157348410000000">
@@ -711,11 +711,11 @@
                         </div>
                         <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%"><br>
 
-                        <span style="padding-top:10px">The Assured Shorthold Tenancy Agreement commits Unipol to providing the accommodation for the duration of the contract at a fixed and agreed rent. It also commits a tenant to pay rent for that period.</span><br><br>  
+                        <span style="padding-top:10px">The Assured Shorthold Tenancy Agreement commits Hostelgh to providing the accommodation for the duration of the contract at a fixed and agreed rent. It also commits a tenant to pay rent for that period.</span><br><br>  
 
                         <span style="padding-top:20px">Contract lengths vary: they are normally 43 weeks for first-year students (starting in mid-September) but most of the houses taken by returning students are let on 52 week contracts - in some instances concessionary rents over the summer are offered.</span><br><br>
 
-                        <span style="padding-top:20px">To keep rents low it is important to keep occupancy high (the fewer empty rooms, the lower the rents need to be for those remaining). So unless exceptional circumstances can be demonstrated, Unipol expects all tenants to discharge their contractual obligations and the tenancy cannot be 'cancelled' or a notice period provided.</span><br><br>
+                        <span style="padding-top:20px">To keep rents low it is important to keep occupancy high (the fewer empty rooms, the lower the rents need to be for those remaining). So unless exceptional circumstances can be demonstrated, Hostelgh expects all tenants to discharge their contractual obligations and the tenancy cannot be 'cancelled' or a notice period provided.</span><br><br>
                     </div>
         </div>
         <div class="modal-footer">
@@ -744,7 +744,7 @@
                 </div>
                 <div class="col-md-6 card">
                     <span style="font-weight:bold;font-size:20px;opacity:0.5">Rent Collection</span><br>
-                    <span>Find out about how Unipol sets its rent levels.</span><br><br>
+                    <span>Find out about how Hostelgh sets its rent levels.</span><br><br>
                     <p style="text-align:center;"><a data-toggle="modal" data-target=".rentcollection-example-modal-lg" href="#" class="btn_top">Find out more</a></p>
                 </div>
             </div>
@@ -781,13 +781,13 @@
                                     and you need extra time, or you wish to discuss any special arrangements because of financial 
                                     problems, please contact the Finance staff who will do their very best to help you.</span>
                                 <br><br>
-                                <span>Unipol try to be flexible and helpful. It is not, however, Unipol's intention to become a bank 
+                                <span>Hostelgh try to be flexible and helpful. It is not, however, Hostelgh's intention to become a bank 
                                     and ‘lend’ money to students so we often advise students to seek assistance from the banks if you 
                                     are having problems in meeting your obligations.</span>
                                 <br><br>
                                 <span style="font-weight:bold">What happens if you miss payment dates?</span>
                                 <br><br>
-                                <span>If you miss a payment and have not been in touch about it, Unipol will take the following steps</span>
+                                <span>If you miss a payment and have not been in touch about it, Hostelgh will take the following steps</span>
                                 <br>
                                 <span style="padding-left:50px"><ul style="list-style-type:disc;">
                                     <li >Step One - the first letter will be sent out 7 days after the due date</li>
@@ -806,12 +806,12 @@
                                         be initiated to collect the debt and repossession papers will be served, which would enable an 
                                         eviction to take place. It is possible that a debt collection agency may be involved to recover 
                                         the debt even after eviction. There are some charges that will be added to your account if 
-                                        Unipol goes through the above process.</li>
-                                    <li>Ultimately Unipol will obtain a County Court Judgement against you. This can affect your 
+                                        Hostelgh goes through the above process.</li>
+                                    <li>Ultimately Hostelgh will obtain a County Court Judgement against you. This can affect your 
                                         credit rating and cause you difficulties in the future when you want to obtain credit cards, 
-                                        bank loans and mortgages. Unipol will pass on any costs involved in doing this. Although the 
-                                        above system may appear harsh it is transparent and necessary. If you have a debt with Unipol 
-                                        you will not be able to sign a further tenancy agreement with Unipol.</li>
+                                        bank loans and mortgages. Hostelgh will pass on any costs involved in doing this. Although the 
+                                        above system may appear harsh it is transparent and necessary. If you have a debt with Hostelgh 
+                                        you will not be able to sign a further tenancy agreement with Hostelgh.</li>
                                 </ul></span>
                             </div>
                             <div class="col-md-4">
@@ -846,43 +846,43 @@
                         <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%"><br>
                         <div class="row">
                             <div class="col-md-8">
-                                <span style="font-weight:bold">Unipol's Rent Collection Procedure</span>
+                                <span style="font-weight:bold">Hostelgh's Rent Collection Procedure</span>
                                 <span>Your tenancy agreement is an important document. It will tell you for how long you are renting 
                                     the property and are liable for the rent. It will also set out the rent payment dates. If you do 
-                                    not pay your rent on time and Unipol staff have to chase payment you will have to pay 
+                                    not pay your rent on time and Hostelgh staff have to chase payment you will have to pay 
                                     administration charges.</span>
                                 <br><br>
                                 <span>The consequences of you not paying your rent could be that you will have a County Court 
-                                    judgement against you, but also it will impact on future rent levels that Unipol charges. 
-                                    Having said that Unipol will assist students who have genuine cash flow problems and if you 
+                                    judgement against you, but also it will impact on future rent levels that Hostelgh charges. 
+                                    Having said that Hostelgh will assist students who have genuine cash flow problems and if you 
                                     contact us as soon as you know you cannot make a rent payment date we will be happy to discuss 
                                     the matter with you.</span>
                                 <br><br>
-                                <span>Below is the rent collection and arrears management procedure that Unipol operates. Many 
-                                    landlords follow similar procedures, some are very much tougher than Unipol</span>
+                                <span>Below is the rent collection and arrears management procedure that Hostelgh operates. Many 
+                                    landlords follow similar procedures, some are very much tougher than Hostelgh</span>
                                 <br><br>
                                 <span style="font-weight:bold">Rent Payments</span>
                                 <br><br>
                                 <span>Your tenancy agreement states the amount of rent and the dates that you must pay your rent. 
-                                    Always check your bank account to ensure a rent payment has been made correctly. Unipol is not 
+                                    Always check your bank account to ensure a rent payment has been made correctly. Hostelgh is not 
                                     able to talk to your bank about your payments and account.</span>
                                 <br><br>
                                 <span style="font-weight:bold">Rent payment for the whole year</span>
                                 <br><br>
-                                <span>Unipol offer a discount on the total amount of rent payable if you pay all your rent in one 
+                                <span>Hostelgh offer a discount on the total amount of rent payable if you pay all your rent in one 
                                     payment by a specific date at the beginning of your tenancy. Further details are available at 
                                     the time of signing your tenancy agreement.</span>
                                 <br><br>
-                                <span style="font-weight:bold">If you pay by debit card or credit card via Worldpay ( through Unipol’s website or email link payment plan)</span>
+                                <span style="font-weight:bold">If you pay by debit card or credit card via Worldpay ( through Hostelgh’s website or email link payment plan)</span>
                                 <br><br>
                                 <span>Please ensure that you have set up the payment correctly and that you have sufficient funds 
                                         available on the dates the payments are due. If a payment needs cancelling for any reason then 
-                                        you need to instruct Worldpay not to make the payment before the payment date and inform Unipol 
+                                        you need to instruct Worldpay not to make the payment before the payment date and inform Hostelgh 
                                         of how you intend to pay your rent,</span>
                                 <br><br>
                                 <span>If you are aware that your bank has not made a payment then you need to check with your bank 
-                                    and find out why. You then need to contact the finance team at Unipol to arrange payment by an 
-                                    alternative method. If a payment is made in error to Unipol, due to banking time delays, a refund 
+                                    and find out why. You then need to contact the finance team at Hostelgh to arrange payment by an 
+                                    alternative method. If a payment is made in error to Hostelgh, due to banking time delays, a refund 
                                     will take 7 to 10 working days to process a refund.</span>
                                 <br><br>
                                 <span>Please note a Worldpay agreement is linked to your debit/credit card and not your bank account. 
@@ -895,11 +895,11 @@
                                 <span>Please check with your bank that they have set up your Direct Debit correctly and that you 
                                     have the money in your bank account to make the payments on the due dates.</span>
                                 <br><br>
-                                <span>Unipol have pre-printed forms that you can complete and return to us. If there is not enough 
+                                <span>Hostelgh have pre-printed forms that you can complete and return to us. If there is not enough 
                                     money in your account on the payment day, then your bank may decide not to forward the payment 
-                                    to Unipol. If this happens you will have to ask your bank to process the payment again or pay the 
-                                    amount due by an alternative method to Unipol. If a Direct Debit needs cancelling for any reason 
-                                    then you need to contact Unipol and instruct us to cancel it before the payment date. This needs 
+                                    to Hostelgh. If this happens you will have to ask your bank to process the payment again or pay the 
+                                    amount due by an alternative method to Hostelgh. If a Direct Debit needs cancelling for any reason 
+                                    then you need to contact Hostelgh and instruct us to cancel it before the payment date. This needs 
                                     to be done 10 days before the due date because of banking procedures.</span>
                             </div>
                             <div class="col-md-4">
@@ -935,7 +935,7 @@
                         </div>
                         <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%"><br>
                         <div class="row">
-                            <span>New for 2020, Unipol has launched a Landlord Clinic for Landlords in Leeds, Bradford and Nottingham. 
+                            <span>New for 2020, Hostelgh has launched a Landlord Clinic for Landlords in UCC, UEW and UG. 
                                 The purpose of the clinic is to support Landlords in providing a positive and professional renting 
                                 experience to students.  Telephone and web chat appointments are currently being offered.  </span>
                             <br><br>
@@ -946,13 +946,13 @@
                                 <li>Legal and Regulatory requirements</li>
                                 <li>Having the opportunity to speak with an impartial person</li>
                                 <li>Advertising</li>
-                                <li>The Unipol Code</li>
+                                <li>The Hostelgh Code</li>
                                 <li>Rate Your Landlord</li>
                             </ul></span>
                             <span style="font-weight:bold">When:</span><span>Wednesdays</span>
                             <span style="font-weight:bold">Time:</span><span>9:30am-11:30am, 20 minute appointment slots can be booked</span>
-                            <span style="font-weight:bold">Where:</span><span> Unipol Housing Hub Leeds, 155-157 Woodhouse Lane Leeds, LS2 3ED</span>
-                            <span style="font-weight:bold">Contact:</span><span>To book your appointment email info@unipol.leeds.ac.uk or call (0113) 243 0169</span>
+                            <span style="font-weight:bold">Where:</span><span> Hostelgh Housing Hub UCC, 155-157 Woodhouse Lane UCC, LS2 3ED</span>
+                            <span style="font-weight:bold">Contact:</span><span>To book your appointment email info@hostelgh.com or call (0113) 243 0169</span>
 
                         </div>
                        
@@ -986,8 +986,8 @@
                          <span style="font-weight:bold">Overview</span>
                          <br><br>
                          <span>Rate Your Landlord is an opinion and ratings website that allows student tenants to leave feedback 
-                            about their renting experiences. The site is a joint venture between Unipol Student Homes and Leeds 
-                            University Union (LUU), and is supported by all institutions and colleges in Leeds. The site is available 
+                            about their renting experiences. The site is a joint venture between Hostelgh Student Homes and UCC 
+                            University Union (LUU), and is supported by all institutions and colleges in UCC. The site is available 
                             to be used by all students.</span>
                         <br><br>
                         <span style="font-weight:bold">Analysis</span>
@@ -1095,7 +1095,7 @@
                         <span style="opacity:0.7">Q: So what happens if we don't join?</span>
                         <br><br>
                         <span>A: If landlords should have joined a scheme, but have not, the Local Authority can take action and can 
-                            impose a penalty of up to £5,000. The Local Authority impose and collect these penalties, and in Leeds 183 
+                            impose a penalty of up to £5,000. The Local Authority impose and collect these penalties, and in UCC 183 
                             investigations have taken place and £47,500 of invoices have been issued, as of January 2016. A 
                             dissatisfied tenant can also still sue for compensation if they cannot claim through a redress scheme.</span>
                         <br><br>

@@ -12,13 +12,12 @@
 
                 <span >There are many reasons why owners prefer to have their property managed.</span>
                 <br>
-                <span >With years of experience, our dedicated team offer a fully comprehensive service in Leeds and Nottingham 
-                    that will ensure your property lets quickly and is well managed to minimise hassle and stress.</span><br>
+                <span >With years of experience, our dedicated team offer a fully comprehensive service that will ensure your property lets quickly and is well managed to minimise hassle and stress.</span><br>
                 <span style="font-weight:bold;font-size:20px">What the Service provides</span>
                 <br>
-                <span>Owner's properties are managed by a dedicated member of the Unipol Housing team. Full support and assistance is provided with additional 24 hour Emergency Assistance. </span>
+                <span>Owner's properties are managed by a dedicated member of the Hostelgh Housing team. Full support and assistance is provided with additional 24 hour Emergency Assistance. </span>
                 <br>
-                <span>Contact us today if you would like to find out more about Unipol’s extensive services for landlords and we will get back to within 48 working hours.</span>
+                <span>Contact us today if you would like to find out more about Hostelgh extensive services for landlords and we will get back to within 48 working hours.</span>
                 <br>
                 <span><a href="get_in_touch" class="btn_top">Get In Touch</a></span>
 

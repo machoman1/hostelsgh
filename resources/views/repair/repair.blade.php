@@ -15,7 +15,7 @@
                     <div style="padding-top: 30px;" class="col-md-6">
                         <span style="font-size: 20px;font-weight:bold">Whilst we try to ensure that your property has nothing wrong with it, disrepair can happen at any time during your tenancy.</span><br><br>
                         <span >Log into the tenant portal to log repairs and to check for updates on existing repairs - <a class="btn_top" href="login">login here.</a></span><br><br>
-                        <span >You should always report repairs to Unipol using the tenant portal, the form on this page or by emailing <a>repairs@unipol.org.uk.</a></span><br><br>
+                        <span >You should always report repairs to Unipol using the tenant portal, the form on this page or by emailing <a >repairs@hostelgh.com</a></span><br><br>
                         <span style="font-size: 20px;">Tenants are responsible for;</span>
                         <div style="padding-top: 10px;"><ul style="padding-left: 50px;list-style-type: circle;font-size:20px"></ul>
                             <li style="font-size: 16px;">Replacing light bulbs (except fluorescent tubes or sealed light fittings).</li>

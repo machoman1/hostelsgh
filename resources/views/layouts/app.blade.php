@@ -7,6 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <link rel="icon" type="image/png"  href="{{ asset('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRusEz8dw4xGk8lVdszSpx7khwyuFOSPPbASQ&usqp=CAU') }}">
     <title>HostelGh</title>
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">

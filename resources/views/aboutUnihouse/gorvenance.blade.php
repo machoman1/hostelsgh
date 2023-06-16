@@ -31,7 +31,7 @@
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-4 card">
-                        <h1 style="font-size:24px">OBJECTS AND ARTICLES OF UNIPOL</h1>
+                        <h1 style="font-size:24px">OBJECTS AND ARTICLES OF HostelGH</h1>
                          <p style="padding-top:10px">
                             The Company’s objects are the advancement of education by providing and managing accommodation and related services for educational institutions, their students and other persons associated w...
                         </p><br>
@@ -47,7 +47,7 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">COMMITTEES</h1><br>
                         <p>
-                            There are five committees that meet regularly and oversee different aspects of Unipol’s operations, these all report to the Board. Committee minutes are available on request from the Company ...
+                            There are five committees that meet regularly and oversee different aspects of Hostelgh operations, these all report to the Board. Committee minutes are available on request from the Company ...
                         </p>
                         <p style="text-align:center;padding-top:70px"><a href="#" class="btn_top">Read Article</a></p><br><br>
                     </div>
@@ -64,7 +64,7 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">GROUPS, FORUMS AND AUDIT PANELS</h1>
                          <p style="padding-top:10px">
-                            Unihouse has a number of Groups, Forums and Audit Panels so that we are in touch with the needs of our clients groups and can reflect current concerns and trends in an appropriate and relevant way in...
+                            Hostelgh has a number of Groups, Forums and Audit Panels so that we are in touch with the needs of our clients groups and can reflect current concerns and trends in an appropriate and relevant way in...
                         </p>
                         <p style="text-align:center;"><a href="#" class="btn_top">Read Article</a></p>
                     </div>
@@ -78,7 +78,7 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">TRUSTEE RECRUITMENT</h1><br>
                         <p>
-                            Unihouse currently has a vacancy for a Trustee. This section of the web is intended to provide information on the application process and information about Unipol.
+                            Hostelgh currently has a vacancy for a Trustee. This section of the web is intended to provide information on the application process and information about Unipol.
                         </p>
                         <p style="text-align:center;padding-top:50px"><a href="#" class="btn_top">Read Article</a></p><br><br>
                     </div>
@@ -102,7 +102,7 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">PUBLICATIONS AND RESEARCH</h1><br>
                         <p>
-                        Bradford | Leeds | Nottingham
+                        UCC | UEW | UG
                         As part of its mission to improve standards and management in student accommodation, Unipol undertakes, commissions and partners in research and publications with the aim of advancing best practice...
                         </p>
                         <p style="text-align:center"><a href="#" class="btn_top">Read Article</a></p>
@@ -110,7 +110,7 @@
                     <div class="col-md-4 card"">
                         <h1 style="font-size:24px">ORGANISATIONAL CHART</h1><br>
                         <p>
-                            View Unipol's Organisational Chart
+                            View Hostelgh's Organisational Chart
                         </p>
                         <p style="text-align:center;padding-top:120px"><a href="#" class="btn_top">Read Article</a></p><br><br>
                     </div>

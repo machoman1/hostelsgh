@@ -9,16 +9,16 @@
                 <h4 class="top">Homestay Accommodation Services for Students</h4><br>
                 <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%"><br>
                 <img src="https://www.unipol.org.uk/getattachment/Accommodation-Search/Homestay/homestay-banners.png.aspx">
-                <span>If you are studying in the Language Centre then you could apply for Homestay accommodation and live with a local family in Leeds.</span><br>
+                <span>If you are studying in the Language Centre then you could apply for Homestay accommodation and live with a local family in our Housing.</span><br>
                 <span>Homestay is a great way to fully immerse yourself in Ghanian culture. If you are only coming to the Ghana for a short period of time, living with a local family will allow you to continue to practice your developing language skills in a safe environment. Our hosts are very experienced in opening their homes to international students and will support you and make you feel part of their family during your time in Ghana. </span><br>
-                <span>Unihouse works closely with the <span><a href="www.uew.edu.gh">University of Education Winneba Language Centre</a></span> to support international students in finding accommodation. All Homestay hosts are carefully selected and subscribe to an accreditation criteria called the Homestay Code. This ensures that high standards are met and maintained within all Homestay accommodation. </span><br>
+                <span>Hostelgh works closely with the <span><a href="www.uew.edu.gh">University of Education Winneba Language Centre</a></span> to support international students in finding accommodation. All Homestay hosts are carefully selected and subscribe to an accreditation criteria called the Homestay Code. This ensures that high standards are met and maintained within all Homestay accommodation. </span><br>
                 <span style="font-weight: bold; text-decoration:underline">Information for Students:</span><br>
                 <span style="font-weight: bold;">What's Included</span>
                 <span>Homestay hosts offer a single bedroom, usually within 50 minutes travel of campus. Your private room will have a bed, clothes storage space and provide a place for you to study when not on campus. You will also have access to communal areas in the Homestay home, such as the living room and kitchen.</span><br>
                 <span>You'll be provided breakfast and evening meals on weekdays, and breakfast, lunch and evening meals at weekends. Some hosts are flexible about meal provision, working around your university timetable as much as possible. The cost of your meals is included in your Homestay fee. Our nightly rate also includes contents insurance to cover you in the instances of any accidents or loss.</span><br>
                 <span>Students are carefully matched with a host, based on the information provided on their application and the host family profile. We try to match with your interests and any special requests, such as staying and being involved in busy family life or if you would prefer a quieter place to stay but with lots of opportunity to converse with your hosts. </span><br>
                 <span style="font-weight: bold;">Applay for Homestay</span>
-                <span><a href="pdf/form.pdf" download="application_form.pdf">Download Application Form</a></span>
+                <span><a class="btn_top" href="pdf/form.pdf" download="application_form.pdf">Download Application Form</a></span>
 
             </div>
             <!-- <div class="col-md-1"></div> -->
@@ -46,7 +46,7 @@
                             <span style="font-weight:bold;font-size:18px;opacity:0.5">024700000125</span><br><br>
 
                             <span style="font-weight:bold;font-size:20px">E-mail</span><br>
-                            <span id="email"style="font-weight:bold;font-size:18px;opacity:0.5">saktsolution@gmail.com</span>
+                            <span id="email"style="font-weight:bold;font-size:18px;opacity:0.5">ekkaidoo@uew.edu.gh</span>
                          
                         </div>
                         <div class="col-md-1"></div>

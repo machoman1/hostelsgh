@@ -6,12 +6,12 @@
     <div class="col-md-10">
         <div class="row">
             <div class="col-md-8 card">
-                <h4 class="top">Why Rent From Unihousing?</h4><br>
+                <h4 class="top">Why Rent From Hostelgh?</h4><br>
                 <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%"><br>
                 <span style="font-size:20px;font-weight:bold">
                     We house students on a not for profit basis, offering the best deal we can to our tenants with no fees, hidden charges or guarantors. The rent our tenants pay is reinvested into our properties and services.
                 </span>
-                <span style="text-align:center"><button href="#" class="btn_top">Find Out More at Unihousing.org.gh</button></span><br>
+                <span style="text-align:center"><button href="#" class="btn_top">Find Out More at Hostelgh.org.gh</button></span><br>
             
                 <span>
                 We have a huge choice of properties in Leeds, Nottingham and Bradford which are all safe, secure, well designed and managed. Choice is important to us, our housing varies from small self-contained flats and bedsits for one, to houses for up to 16 students. We have purpose built student accommodation for as few as 40 students and for as many as 447.
@@ -27,7 +27,7 @@
             <!-- <div class="col-md-1"></div> -->
             <div class="col-md-4">
             <div class="card">
-                    <h1 class="top">Rent Unihouse Properties Online Now</h1>
+                    <h1 class="top">Rent Hostelgh Properties Online Now</h1>
                     <a style="text-align:center" class="btn_top" href="#about">Find Properties</a>
                 </div>
 

@@ -57,7 +57,7 @@
                             <span style="font-weight:bold;font-size:18px;opacity:0.5">024700000125</span><br><br>
 
                             <span tyle="font-weight:bold;font-size:20px">E-mail</span><br>
-                            <span id="email_address" style="font-weight:bold;font-size:18px;opacity:0.5">saktsolution@gmail.com</span>
+                            <span id="email_address" style="font-weight:bold;font-size:18px;opacity:0.5">ekkaidoo@uew.edu.gh</span>
 
                         </div>
                         <div class="col-md-1"></div>

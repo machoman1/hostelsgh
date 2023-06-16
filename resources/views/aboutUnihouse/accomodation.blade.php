@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    
+    <link rel="icon" type="image/png"  href="{{ asset('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRusEz8dw4xGk8lVdszSpx7khwyuFOSPPbASQ&usqp=CAU') }}">
     <title>Hostelgh</title>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -159,7 +161,7 @@
                     </div>
                     </div> 
                     <a class="active" href="#">Sponsors</a>
-                    <a class="active" href="#">Advice</a>
+                    <a class="active" href="advice">Advice</a>
                 <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
                 </div>
 

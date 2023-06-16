@@ -6,15 +6,15 @@
     <div class="col-md-10">
         <div class="row">
             <div class="col-md-8 card">
-                <h4 class="top">Unihouse's Values</h4><br>
+                <h4 class="top">Hostelgh's Values</h4><br>
                 <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%"><br>
-                <span style="font-size:20px;font-weight:bold">Unipol is a unique student housing charity, established in 1975.</span>
+                <span style="font-size:20px;font-weight:bold">Hostelgh is a unique student housing charity, established in 1975.</span>
                 <span style="font-size:20px;font-weight:bold">We are passionate about helping students find the best housing.</span><br>
                 <span>
-                    We provide help and assistance to students renting in the private sector, provide direct housing to students in Leeds, Nottingham and Bradford, run a number of accreditation schemes and train and promote best practice in student housing.
+                    We provide help and assistance to students renting in the private sector, provide direct housing to students in Winneba, Accra and Cape Coast, run a number of accreditation schemes and train and promote best practice in student housing.
                 </span><br>
                 <span>
-                    Unipol is not only at the centre of student housing but is involved at every level: information, advice, policy development and setting, measuring and checking standards.
+                    Hostelgh is not only at the centre of student housing but is involved at every level: information, advice, policy development and setting, measuring and checking standards.
                 </span><br>
 
                 <iframe width="" height="500px"
@@ -54,7 +54,7 @@
                     We recognise high quality buildings and management through robust Unipol accreditation schemes (the Codes) and promote those landlords who commit themselves to delivering this
                 </p><br>
 
-                <span style="font-weight:bold;font-size:18px">In Unhihousing own housing</span>
+                <span style="font-weight:bold;font-size:18px">In Hostelgh own housing</span>
                 <p>We house just over 3,000 students on a not for profit basis and our housing stock caters to the diversity of the student population.</p>
 
                 <p>We offer the best deal we can to our tenants, there are no fees or hidden charges, nor do we ask adult students to be backed by a guarantees.  Our housing revenue goes to subsidise housing for students with dependents (normally families), maintain a range of low-cost accommodation, support investment in higher quality properties and helps subsidise our advice and accreditation mission.</p>

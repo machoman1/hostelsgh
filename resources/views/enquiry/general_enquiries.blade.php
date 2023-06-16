@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-            <h4 class="top">Contact Unihouse</h4><br>
+            <h4 class="top">Contact Hostelgh</h4><br>
             <!-- <hr style="height:5px;border-width:0;color:gray;background-color:blue;width:100%"><br> -->
         </div>
         <div class="col-md-1"></div>
@@ -43,7 +43,7 @@
                          What we can help with:
                         </p><br>
                         <p style="padding-top:10px">
-                        Problems using the website or Unipol applications.
+                        Problems using the website or Housing applications.
                         </p><br>
                         <p style="text-align:center"><a data-toggle="modal" data-target="#IT" class="btn_top">Contact Us</a></p>
                     </div>
@@ -56,7 +56,7 @@
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-4 card">
-                        <h1 style="font-size:24px">Unihouse Code</h1>
+                        <h1 style="font-size:24px">Hostelgh Code</h1>
                          <p style="padding-top:10px">
                          What we can help with:
                         </p><br>

@@ -89,7 +89,7 @@
                     </tr>
                 </table><br><br>
 
-                <span style="font-weight:bold;font-size:16px">If you are interested in our management service for owners, please get in touch by filling out the form below. Alternatively, if you have any questions please contact Veronika Ortegel at V.Ortegel@unipol.org.uk</span><br>
+                <span style="font-weight:bold;font-size:16px">If you are interested in our management service for owners, please get in touch by filling out the form below. Alternatively, if you have any questions please contact us.</span><br>
 
                 <div class="row">
                     <div class="col-md-6">

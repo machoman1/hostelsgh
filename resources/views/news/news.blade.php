@@ -44,7 +44,7 @@
             </div>
         </div>
         <div style="background-color: #ffffff; padding:0" class="col-md-4">
-            <img src="https://i0.wp.com/roadsandkingdoms.com/uploads/2018/01/walkingtour_photo2.jpg?ssl=1&w=2400&quality=95&strip=color">
+            <img src="https://hostelgeeks.com/wp-content/uploads/2021/12/best-beach-hostels-in-the-world.jpg">
         </div>
         <div class="col-md-1"></div>
     </div>
