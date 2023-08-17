@@ -3,6 +3,9 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\Content\HomePageContent;
+use Database\Seeders\Content\HomePageContent as ContentHomePageContent;
 use Illuminate\Database\Seeder;
 use DB;
 class DatabaseSeeder extends Seeder
@@ -20,6 +23,10 @@ class DatabaseSeeder extends Seeder
         $this->call(PropertyTypeSeeder::class);
         $this->call(NewsSeeder::class);
         $this->call(NoticebordSeeder::class);
+        $this->call(ImageSeeder::class);
+
+        //content
+        $this->call(ContentHomePageContent::class);
 
 
 

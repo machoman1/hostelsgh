@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   <link rel="icon" type="image/png" href="{{ asset('https://www.uew.edu.gh/sites/default/files/uew_logo_web.png') }}">
-  	<title>Unihouse</title>
+  	<title>HostelGh</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -33,7 +33,11 @@
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-
+    <?php
+  use App\Models\Images;
+  $data_logo = Images::all()->where('type','SystemLogo');
+  foreach($data_logo as $logo);
+?>
   </head>
 <style>
     <?php
@@ -111,8 +115,10 @@
 </style>
   <body style="font-family: 'Open Sans', sans-serif">
   <div id="mySidebar" class="sidebar">
-  <img src="https://www.unipol.org.uk/css/images/logo_leeds.png" style="width: 80%;padding-left:30px">
-
+  <!-- <img src="https://www.unipol.org.uk/css/images/logo_leeds.png" style="width: 80%;padding-left:30px"> -->
+  @foreach($data_logo as $logo)
+    <img src="{{ url('public/images/'.$logo->image)}}" alt="image" width="200" style="padding-left:30px">
+   @endforeach
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="javascript:void(0)" style="font-weight:bold;font-size:25px;" >{{strtoupper(Auth::user()->name)}}</a>
   <a href='/dash/'><i class="fa fa-th-large" aria-hidden="true"></i> Dashboard</a>

@@ -20,8 +20,16 @@ class UserSeeder extends Seeder
         $data=array(    
             'name'=>'Admin',
             'role_as'=>'0',
-            'email'=>'admin@gmail.com',
+            'email'=>'saktsolution@gmail.com',
             'password'=>Hash::make('123'),
+        );
+        DB::table('users')->insert($data);
+
+        $data=array(    
+            'name'=>'Admin',
+            'role_as'=>'0',
+            'email'=>'kwaaidoo@yahoo.co.uk',
+            'password'=>Hash::make('Admin'),
         );
         DB::table('users')->insert($data);
     }

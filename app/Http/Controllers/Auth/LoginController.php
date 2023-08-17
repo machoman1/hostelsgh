@@ -67,7 +67,7 @@ class LoginController extends Controller
             Auth::user()->save();
 
             if(Auth::user()->role_as =='0'){
-                $user->notify(new WelcomeNotification());
+                //$user->notify(new WelcomeNotification());
                 Alert::toast('Login Successfully',' success');
                 return redirect('/admin');
             }

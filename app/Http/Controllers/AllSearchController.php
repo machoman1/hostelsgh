@@ -35,6 +35,8 @@ class AllSearchController extends Controller
             return view('aboutUnihouse.accomodation',compact('data_city','data','data_pro_type','room_search','room_search_count'));
 
         }
+        return view('aboutUnihouse.accomodation',compact('data_city','data','data_pro_type','room_search','room_search_count'));
+
     }
 
     public function accomodation_page_search(Request $request)

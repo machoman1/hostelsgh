@@ -17,7 +17,6 @@
                     <form  method="get" action="{{ url( '/welcome_search' )}}">
                         @csrf 
                         <select name="query" id="city_drop" style="width:100%;background-color:transparent;outline:none;border:none;color:white" required>
-                            <option value="0">Select City</option>
                             @foreach($data as $cities)
                             <option style="border:none;color:#000" value="{{$cities->name}}">{{$cities->name}}</option>
                             @endforeach

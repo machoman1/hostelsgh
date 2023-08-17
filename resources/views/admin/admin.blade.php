@@ -202,14 +202,14 @@
                         </div>
 
                         <div class="col-md-4">
-                                <!-- <a href="/admin_inquiry" onMouseOver="this.style.backgroundColor='#006242'" onMouseOut="this.style.backgroundColor='#FFFFFF'" style="text-decoration: none; color:black"><div class="card" style="width: 18rem;">
-                                <i class="fa fa-commenting fa-4x" aria-hidden="true"></i>
+                                <a href="/content" onMouseOver="this.style.backgroundColor='#006242'" onMouseOut="this.style.backgroundColor='#FFFFFF'" style="text-decoration: none; color:black"><div class="card" style="width: 18rem;">
+                                <i class="fa fa-file-text fa-4x" aria-hidden="true"></i>
                                 <div class="card-body">
                                     <br>
-                                    <span style="font-weight: bold;font-size:25px">General Inquiry</span>
-                                    <p class="card-text">Respond to People Contacting Unihouse.</p>
+                                    <span style="font-weight: bold;font-size:25px">Website Content</span>
+                                    <p class="card-text">Add And Edit Website Content.</p>
                                 </div>
-                            </div></a> -->
+                            </div></a>
                         </div>
                     </div>
 

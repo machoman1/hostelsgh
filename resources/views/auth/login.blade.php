@@ -1,6 +1,10 @@
 @extends('app_sidebar')
 @section('content')
-
+<?php
+    use App\Models\Images;
+    $data_logo = Images::all()->where('type','SystemLogo');
+    foreach($data_logo as $logo);
+?>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -8,7 +12,7 @@
 <div style="font-family: 'Open Sans', sans-serif" class="container">
     <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-md-3"><span style="font-size: 40px;font-weight:bold">My Unihouse</span></div>
+        <div class="col-md-3"><span style="font-size: 40px;font-weight:bold">My HostelGh</span></div>
         <div class="col-md-5"><span>We have created a secure login area full of extra features and additional information for you to take 
                     advantage of. So, if you’re a student, an approved landlord, event booker or board member, just sign in below 
                     and let’s get started.</span>
@@ -52,7 +56,7 @@
                         <div style="text-align:center; padding-top:10px"><a href="register_student" class="btn_top">Sign up as Student</a></div>
 
                         <span style="font-weight: bold;font-size:20px">Landlords</span><br>
-                        <span>Creating an account means you can advertise your properties directly to students who are advised to use the Unipol website by their universities and colleges. You can also get access to resources like the Unihouse/TDS deposit scheme and the Unipol Agreement Generator.</span>
+                        <span>Creating an account means you can advertise your properties directly to students who are advised to use the Hostelgh website by their universities and colleges. You can also get access to resources like the HostelGh/TDS deposit scheme and the Hostelgh Agreement Generator.</span>
                         <div style="text-align:center; padding-top:10px"><a href="register_landloard" class="btn_top">Sign up as Landloard</a></div>
 
                         <span style="font-weight: bold;font-size:20px">Event Bookers</span><br>

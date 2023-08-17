@@ -23,7 +23,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
-
+<?php
+  use App\Models\Images;
+  $data_logo = Images::all()->where('type','SystemLogo');
+  foreach($data_logo as $logo);
+?>
 </head>
 <body >
     <div id="app">
@@ -31,7 +35,9 @@
             <div class="container">
                 <a style="background-color: unset;" class="navbar-brand" href="{{ url('/') }}">
                     <!-- <img src="images/H-GH.png" height="100" width="200"> -->
-                    <img src="https://scontent.facc1-1.fna.fbcdn.net/v/t39.30808-6/347799529_765323708629954_1991020526151240239_n.jpg?stp=dst-jpg_s2048x2048&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEOlfFiQZaTi5jThf2GkdnOgghXebZHvJSCCFd5tke8lDMb02cRDThuF2bEHajWDCeeVWfj8ZVUkaeAxZEOv-jO&_nc_ohc=cShSkvy4OZcAX-YDh6r&_nc_oc=AQloMV303MB9z3zMSGFusb9Cf98iUekARGmH-y0GKm75FwCzjBdxHQhQyNDC1cFyePA&_nc_zt=23&_nc_ht=scontent.facc1-1.fna&oh=00_AfBLcCkirfLV05S3m4wyUhhTC-jtAXRbSTYYlCu7uZFPoQ&oe=648FA98E" height="100" width="200">
+                    @foreach($data_logo as $logo)
+                    <img src="{{ url('public/images/'.$logo->image)}}" alt="image" height="100" width="200">
+                    @endforeach
                 </a>
                 <button id="bbb" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -148,11 +154,11 @@
             @include('sweetalert::alert')
 
         </main>
-        <footer class="site-footer">
+    <footer style="font-family: 'Open Sans', sans-serif;" class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <h6>About</h6>
+            <h6>HostelGH</h6>
             <p class="text-justify">Welcome to hostelgh.com!, We are a platform dedicated to providing students with affordable and convenient hostel bookings. Our mission is to make the process of finding and booking a hostel as easy as possible for you.Our team has years of experience in the travel and hospitality industry, and we know what it takes to create an enjoyable and comfortable hostel experience. That's why we carefully curate a selection of hostels that are not only budget-friendly but also offer great amenities and services.</p>
           </div>
 

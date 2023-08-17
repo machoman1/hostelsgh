@@ -1,7 +1,9 @@
 <?php
 
+use App\Models\Images;
 use Illuminate\Support\Facades\Route;
 use App\Models\Room;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,8 +19,9 @@ use App\Models\Room;
 Route::get('/', function () {
     $data = DB::select('select * from cities');
     $data_room = Room::all()->count();
-
-    return view('welcome',compact('data','data_room'));
+    $data_logo = Images::all()->where('type','SystemLogo');
+    
+    return view('welcome',compact('data','data_room','data_logo'));
 });
 //Route::post('welcome/', [App\Http\Controllers\AllSearchController::class, 'welcome_page_search']);
 Route::get('/welcome_search', [App\Http\Controllers\AllSearchController::class, 'welcome_page_search']); 
@@ -265,3 +268,20 @@ Route::get('whole_property_search/{id}', [App\Http\Controllers\AllSearchControll
 Route::get('whole_room_search/{id}', [App\Http\Controllers\AllSearchController::class, 'whole_room_search']);
 Route::post('whole_property_search/', [App\Http\Controllers\BookingsController::class, 'add_bookings']);
 Route::post('whole_room_search/', [App\Http\Controllers\BookingsController::class, 'add_bookings_room']);
+
+
+
+
+//content editor
+Route::get('/content', [App\Http\Controllers\AdminContentEditorController::class, 'content'])->name('content');
+
+//home page
+Route::get('/home_Page_content', [App\Http\Controllers\AdminContentEditorController::class, 'home_page'])->name('cust.home_content');
+Route::get('edit_home_page_content/{id}', [App\Http\Controllers\AdminContentEditorController::class, 'edit_home_page']);
+Route::post('edit_home_page_content/', [App\Http\Controllers\AdminContentEditorController::class, 'update_home_page']);
+
+//home page
+Route::get('/homestay_page_content', [App\Http\Controllers\AdminContentEditorController::class, 'homestay_page'])->name('cust.homestay_content');
+Route::get('edit_homestay_page_content/{id}', [App\Http\Controllers\AdminContentEditorController::class, 'edit_homestay_page']);
+Route::post('edit_homestay_page_content/', [App\Http\Controllers\AdminContentEditorController::class, 'update_homestay_page']);
+

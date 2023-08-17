@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>UniHostel</title>
+    <title>HostelGh</title>
 
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/min.css') }}" rel="stylesheet">
@@ -20,6 +20,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <?php
+  use App\Models\Images;
+  $data_logo = Images::all()->where('type','SystemLogo');
+  foreach($data_logo as $logo);
+?>
 </head>
 <body  onload="myFunction()">
 <div id="loader"></div>
@@ -28,7 +33,10 @@
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <!-- {{ config('app.name', 'Laravel') }} -->
-                    <img src="https://www.unipol.org.uk/css/images/logo_leeds.png">
+                    <!-- <img src="https://www.unipol.org.uk/css/images/logo_leeds.png"> -->
+                    @foreach($data_logo as $logo)
+                    <img src="{{ url('public/images/'.$logo->image)}}" alt="image" height="100" width="200">
+                    @endforeach
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
